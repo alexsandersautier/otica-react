@@ -1,0 +1,26 @@
+.background{
+    background-image: url(../../public/capa.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 92vh;
+    display: grid;
+    grid-template-columns: 400px 450px 400px;
+}
+
+.paragraph{
+    color: #C2BCBF;
+    font-size: 42px;
+}
+
+.highlight{
+    color: #FEFFFF;
+    text-transform: uppercase;
+    font-size: 48px;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+}
